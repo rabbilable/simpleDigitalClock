@@ -4,7 +4,7 @@ const clock = document.querySelector('.clock');
 const tick = ()=>{
     let now = new Date();
 
-    let h = now.getDate();
+    let h = now.getHours();
     let m = now.getMinutes();
     let s = now.getSeconds();
 
